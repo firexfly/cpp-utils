@@ -2,7 +2,7 @@
 Useful utilities, missing from the std lib.
 
 ## Build:
-Compile into a dynamic lib on macOS: `c++ -dynamiclib -std=c++11 -o cpp-utils.dylib split.cpp`
+Compile into a dynamic lib on macOS: `c++ -dynamiclib -std=c++11 -o cpp-utils.dylib split.cpp ends_with.cpp`
 
 Or on Linux (using a static lib):
 ```bash
